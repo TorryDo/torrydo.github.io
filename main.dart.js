@@ -47247,7 +47247,9 @@ this.a.toString
 s=A.a3Y("Flutter Demo Home Page",r)
 return new A.ql(new A.nF(s,new A.Eg(r,r,1/0,56),r),A.Il(A.a8O(A.a([B.GK,A.a3Y(""+this.d,A.bf(a).RG.e)],t.F),B.AZ),r,r),A.a2x(B.xG,!1,this.gJe(),"Increment"),r)}}
 A.WU.prototype={
-$0(){this.a.d*=2},
+$0(){var s=this.a,r=s.d
+if(r<=0)s.d=r+1
+else s.d=r*2},
 $S:0}
 A.aY.prototype={
 an(a){var s=a.a,r=this.a
